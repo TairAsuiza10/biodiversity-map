@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Anaconda verde",
+    "scientificName": "Eunectes murinus",
+    "latitude": -3.743,
+    "longitude": -73.251,
+    "description": "La anaconda verde es una de las serpientes más grandes del mundo. Habita en zonas pantanosas y ríos del Amazonas.",
+    "image": "https://trexperienceperu.com/sites/default/files/peruvian_green_anaconda.webp"
+  },
+  {
+    "id": 2,
+    "name": "Delfín rosado del Amazonas",
+    "scientificName": "Inia geoffrensis",
+    "latitude": -3.75,
+    "longitude": -73.30,
+    "description": "El delfín rosado es un mamífero acuático endémico de los ríos amazónicos. Es símbolo de la biodiversidad fluvial.",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/13/72/fb/03/delfin-rosado-en-el-amazonas.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Guacamayo azulamarillo",
+    "scientificName": "Ara ararauna",
+    "latitude": -3.77,
+    "longitude": -73.20,
+    "description": "Ave colorida que habita en los bosques tropicales. Se alimenta de frutas y semillas.",
+    "image": "https://avesexoticas.org/wp-content/uploads/2017/07/1ef1c121e37cc90f469215e0349f6ee7.jpg"
+  }
+]

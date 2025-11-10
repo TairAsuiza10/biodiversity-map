@@ -1,10 +1,12 @@
+import MapView from '@/components/MapView';
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-blue-100">
-      <h1 className="text-3xl font-bold text-blue-700">
-        ¡Tailwind está funcionando! 🌿
+    <main className="min-h-screen flex flex-col items-center justify-center bg-green-50 p-6">
+      <h1 className="text-4xl font-bold text-green-800 mb-6 text-center">
+        🌿 Mapa de Biodiversidad - IIAP
       </h1>
+      <MapView />
     </main>
   );
 }
