@@ -77,12 +77,12 @@ export default function MapView() {
 
 'use client';
 
-import dynamic from 'next/dynamic';
-import { useEffect, useState, useMemo } from 'react';
+import speciesData from '@/features/map/data/species.json';
 import 'leaflet/dist/leaflet.css';
-import speciesData from '@/data/species.json';
-import MarkerPopup from './MarkerPopup';
+import dynamic from 'next/dynamic';
+import { useEffect, useMemo, useState } from 'react';
 import FilterPanel from './FilterPanel';
+import MarkerPopup from './MarkerPopup';
 
 // 🔹 Cargamos react-leaflet dinámicamente (sin SSR)
 const MapContainer = dynamic(() => import('react-leaflet').then(mod => mod.MapContainer), { ssr: false });
